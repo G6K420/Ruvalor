@@ -1,0 +1,163 @@
+
+
+.displayNbr {
+    position: absolute;
+    margin-left: 25px;
+    background-color: #849c63;
+    padding: 5px;
+    border-radius: 4px;
+}
+ 
+
+  
+#displayBdd {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+	overflow:auto;
+	height: 65vh;
+	padding: 0.5em;
+	background-color: #849c63;
+	border-radius: 10px;
+}  
+
+
+
+#displayElement{
+    display: flex;
+    align-items: center;
+}
+
+#element{
+    width: 95%;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+}
+
+#element:hover {
+    background-color: #6d7d50;
+    border-radius: 10px;
+}
+
+.elem1 {
+    margin-left: 6%;
+    width: 32%;
+}
+
+.elem2 {
+    width: 31%;
+}
+
+.elem3 {
+    width: 30%;
+}
+
+.elemUnique {
+    width: 100%;
+    margin-left: 7.5%;
+}
+
+#btnModifSupp {
+    float: right;
+    display: flex;
+}
+
+
+
+
+
+#submitModif {
+    width: 210px;
+}
+
+
+
+
+.btnModif{
+    color: orange;
+    text-decoration: none;
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+
+.titrePopSupp {
+    text-align: center;
+}
+
+.textPopSupp {
+    text-align: center;
+}
+
+.btnAnnuler {
+    cursor: pointer;
+}
+
+
+.btnSupp {
+    background-color: red;
+    border-radius: 40px;
+    border-color: white;
+    cursor: pointer;
+}
+
+.supp{
+    color: red;
+    text-decoration: none;
+    text-align: right;
+    margin-left: 20%;
+}
+
+
+.btnCloseX {
+    float:right;
+    cursor: pointer;
+}
+
+
+
+
+.overlay {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    /*background-repeat: repeat;
+    background-size: cover;*/
+    width:100%;
+    height:100%;
+    display:none;
+}
+/*
+#popup{
+    margin:20% auto;
+    width:70%;
+    background-color:rgb(228,228,228);
+    border-radius: 5px;
+    box-shadow: 15px 20px 0 rgba(0,0,0,0.5);
+    padding:1em;
+}
+*/
+
+.popupModif{
+    margin:10% auto;
+    width:40%;
+    background-color:rgb(228,228,228);
+    border-radius: 5px;
+    box-shadow: 15px 20px 0 rgba(0,0,0,0.5);
+    /*background-repeat: repeat;
+    background-size: cover;*/
+    padding:1em;
+    margin-top: 15%;
+}
+
+.popupSupp{
+    margin:20% auto;
+    width:50%;
+    background-color:rgb(228,228,228);
+    border-radius: 5px;
+    box-shadow: 15px 20px 0 rgba(0,0,0,0.5);
+    padding:1em;
+}
+

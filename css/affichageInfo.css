@@ -1,0 +1,326 @@
+.displayInfo {
+    margin-top: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
+    overflow:auto;
+    height: 86%;
+    width: 60%;
+    padding: 0.5em;
+    background-color: #849c63;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+.affichageInfo {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 40px;
+}
+
+
+.btnCloseInfo {
+    cursor: pointer;
+    float: right;
+}
+
+
+.divEmploye {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 130px;
+}
+
+.infoEmploye {
+	background-color: lightgrey;
+	padding: 10px;
+	margin-top: 28px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+    --bd-colums:2;
+    display: block;
+    width: 28%;
+    height: 55px;
+}
+
+.elemEmp {
+    float:left; 
+    display: block;
+}
+    
+.photoEmploye {
+    float: right;
+    justify-content: end;
+    margin-left: 70%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+ img {
+    height: 110px; 
+    width: 95px; 
+}
+
+
+.divInfo {
+    background-color: lightgrey;
+    padding: 10px; 
+    margin-top: 15px;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    align-items: center;
+    
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+#divEmploye {
+    background-color: #9FD4A6;
+}
+
+#divMetier {
+    background-color: #9AB4DB;
+}
+
+#divFormation {
+    background-color: #E6C5DC;
+} 
+
+#divSensibilisation {
+    background-color: #FFEAA3;
+}
+
+
+.formFile {
+    margin-top: 50px;
+    padding: 0px;
+}
+
+.inputFile {
+    width: 235px;
+    float: right;
+    margin-bottom: 5px;
+}
+
+.submitFile {
+    margin-right: 50px;
+}
+
+
+
+
+.divdivInfo {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.divNom {
+    text-align: center;
+    font-weight: bold;
+}
+
+.titreInfo {
+    float:left; 
+    display: block;
+    font-weight: bold; 
+    margin-left: 0px
+}
+
+.titreInfo > p {
+    margin-top: 0px;
+}
+
+.nomInfo {
+    width: auto;
+    display: block;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+
+.elementInfo {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+.elemInfo-1{
+    padding-left: 4%;
+    display: block;
+    width: 92%;
+    float:left;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+.elemInfo {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.elemInfo-2-1 {
+    padding-left: 4%;
+    display: block;
+    width: 46%;
+    float:left;
+    padding-bottom: 15px;
+}
+
+.elemInfo-2-2 {
+    display: block;
+    width: 46%;
+    float: left;
+}
+
+
+.elemInfo-3-1_2 {
+    padding-left: 4%;
+    display: block;
+    width: 61%;
+    float:left;
+    padding-bottom: 15px;
+}
+
+.elemInfo-3-1 {
+    padding-left: 4%;
+    display: block;
+    width: 30.5%;
+    float:left;
+    padding-bottom: 15px;
+}
+
+.elemInfo-3-2 {
+    display: block;
+    width: 30.5%;
+    float: left;
+}
+
+.elemInfo-3-3 {
+    display: block;
+    width: 30.5%;
+    float: left;
+}
+
+
+
+.elemInfo-4-1_2 {
+    display: block;
+    width: 48%;
+    float:left;
+    padding-bottom: 15px;
+}
+
+.elemInfo-4-1 {
+    display: block;
+    width: 24%;
+    float:left;
+    padding-bottom: 15px;
+}
+
+.elemInfo-4-2 {
+    display: block;
+    width: 24%;
+    float: left;
+}
+
+.elemInfo-4-3 {
+    display: block;
+    width: 24%;
+    float: left;
+}
+
+.elemInfo-4-4 {
+    display: block;
+    width: 24%;
+    float: left;
+}
+
+
+
+
+#elemInfoEmp {
+    background-color: #C8E6CF;
+}
+
+#elemInfoEmpOrange {
+    background-color: orange;
+}
+
+#elemInfoEmpRed {
+    background-color: red;
+}
+
+#elemInfoMet {
+    background-color: #B6CBE3;
+}
+
+#elemInfoFor {
+    background-color: #EBD4E6;
+}
+
+#elemInfoForOrange {
+    background-color: orange;
+}
+
+#elemInfoForRed {
+    background-color: red;
+}
+
+#elemInfoSen {
+    background-color: #FDF2BE;
+}
+
+
+
+.elemInfoBtn {
+    display: block;
+    width: 4%;
+    float: right;   
+}
+
+
+
+.formInfo {
+    margin-top: 10px;
+}
+
+.selectInfo {
+    padding: 5px;
+    max-width: 280px;
+}
+
+
+
+.submitInfo {
+    margin-top: 5px;
+    padding: 5px;
+    border-width: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+

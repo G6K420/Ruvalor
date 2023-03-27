@@ -1,0 +1,294 @@
+
+
+body {
+	position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+        height: 100%;
+    margin:0;
+    padding:0;
+    background-size: 100% ;
+    width:100%;  
+    color:black;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+    background: #6d7d50;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: solid 0 transparent;
+    background-color: #5f6d46;
+}
+
+body:before {
+        content: "";
+        position: fixed;
+        height: 100%; width: 100%;
+        background: url("../img/wallpaper.jpg");
+        background-size: cover;
+        z-index: -1; /* Keep the background behind the content */     
+        /*-webkit-filter: blur(8px); */
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+}
+
+
+h1 {
+	color: #cc0c00;
+    border-color: #cc0c00;
+    border-style: solid;
+    text-align: center;
+    border-radius: 20px;
+    background-color : #849c63;
+}
+h1:hover {
+	color: #849c63;
+    background-color : #cc0c00;
+}
+
+h1 a{
+	text-decoration: inherit;
+    text-align: center;
+	display: block;
+	color: inherit;
+}
+
+h1 a:hover {
+	text-decoration:  inherit;
+	color: inherit;
+    text-align: center;
+}
+
+
+.connexionIndex {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.carre {
+    vertical-align: top;
+    z-index: auto;
+    width  : 60%;
+    height : 60%;
+    opacity: 0.8;
+    vertical-align: center;
+    border-radius: 10px;
+    margin-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background : #849c63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#carreConnexion {
+    opacity: 1;
+    padding: 0;
+    margin-left: 20%;
+    text-align: center;
+    display: inline-grid;
+    align-items: center;
+    align-content: center;
+}
+
+#carreInscription {
+    opacity: 1;
+    padding: 0;
+    height: 75%;
+    display: inline-grid;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+
+#carreInscripValide {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.textInscriptValide {
+    font-size: 25px;
+}
+
+
+
+h3 {
+    margin-bottom: 15%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    text-decoration: bold;
+}
+
+
+.infoConnexion {
+    display: block;
+}
+
+.connect {
+    color:white;
+    margin-left: 30px;
+    background-color: #196C28;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.deconnect {
+    float: right;
+    margin-right: 25px;
+    display: inline-block;
+}
+
+#submitDeconnexion {
+    width: 150px;
+    margin: 0;
+}
+
+.rectangle {
+	vertical-align: top;
+    z-index: auto;
+    width  : 28%;
+    height : 75%;
+    /*opacity: 0.8;*/
+    vertical-align: center;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 36%;
+    margin-right: auto;
+    background : #849c63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.rectangle ul {
+	padding-left: 0;
+	list-style: none;
+	float: center;
+}
+
+.rectangle ul li {
+	margin: 40% auto 40%;
+}
+
+
+.rectangle ul li a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.rectangle ul li a:hover {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+
+
+
+
+
+.formInput {
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+
+#formSearch {
+    width: 450px;
+}
+
+.form {
+    z-index: 1;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+.form > p {
+    display: inline-block;
+    justify-content : space-between;
+}
+
+.formConnexion {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+#formModif {
+    width: 400px;
+}
+
+#submitConnexion {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background-color: #65A170;
+    width: 200px;
+}
+
+#submitConnexion:hover {
+    background-color: #adbd97;
+}
+
+.formInscription {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+#formInscription {
+
+}
+
+#submitInscription {
+    width: 150px;
+}
+
+#submitReturn {
+    width:200px;
+}
+
+.submit {
+    display: inline-block;
+    background-color: #849c63;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.submit:hover {
+    background-color: #adbd97;
+}
